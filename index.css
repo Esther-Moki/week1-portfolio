@@ -165,7 +165,24 @@ nav a{
 .middle{
   display: flex;
   justify-content: space-around;
+  width: 50%;
+  left: 55%;
+  top: 50%;
+  tran
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* end of portfolio part */
