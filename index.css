@@ -160,12 +160,13 @@ section{
 }  
 .content .skills .graph .percentage{
   position: absolute;
-  top: -20px;
+  top: -30px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
   color: #C0392B;
   font-weight: bold; 
+  font-size: 20px;
 }
 .content .skills .module{  
   position: absolute;
@@ -174,6 +175,7 @@ section{
   transform: translateX(-50%);
   color: #000000;
   font-weight: bold;
+  font-size: 20px;
 
 }
 .random{
