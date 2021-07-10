@@ -94,7 +94,6 @@ nav a:hover{
   padding-top: 50px;
   padding-left: 50px;
   margin-bottom: 140px;
-
 }
 .me{
   padding-left: 60px;
@@ -102,12 +101,10 @@ nav a:hover{
 .special{
   padding-left: 165px;
 } 
-
 section{ 
   width: 100%;
   height: 105vh;
   background-color: #D5DBDB;
-
 } 
 #topic{
   font-size: 30px;
@@ -147,7 +144,6 @@ section{
   left: 2px;
   right: 2px;
   bottom: 0;
-  /* background:blue; */
 }
 .content .skills .graph:after{
   content: "";
@@ -176,14 +172,12 @@ section{
   color: #000000;
   font-weight: bold;
   font-size: 20px;
-
 }
 .random{
   background: url(assets/eight.jpg);
   background-repeat: no-repeat;
   display: flex;
   margin-top: 20px;
-
 }
 .facts{
   padding-top: 120px;
@@ -200,38 +194,14 @@ section{
   padding-top: 150px;
   padding-left: 280px;
   line-height: 28px;
-
 }
-.bumble{
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* end of about part */
 
 /*start of projects part  */
 
-.work{
+.mid{
   background-color:#D5DBDB;
+  height: 650px;
 }
 .tlist{
   text-align: center;
@@ -239,6 +209,7 @@ section{
   color: #000000;
   padding-top: 30px;
   text-decoration: underline;
+  margin-top: 20px;
 }
 .projects{
   display: flex;
@@ -247,20 +218,24 @@ section{
   width: 70%;
   padding-top: 20px;
   justify-content: space-between;
-}
-a{
   text-decoration: none;
-  color: #000000;
-  font-size: 20px;
 }
-a:hover{
+.projects a{
+  text-decoration: none; 
+  color:#040720;
+  font-size: 25px;
+}
+.projects a:hover{
   background-color: #B42D46;
-  padding: 5px;
+  padding: 8px;
 }
 .button{
   padding-top: 15px;
   font-size: 20px;
 
+}
+.mangoes{
+  /* background-color: #D5DBDB; */
 }
 .middle{
   width: 70%;
@@ -408,6 +383,7 @@ a:hover{
 
 
 /* end of portfolio part */
+
 /* contact part */
  .container{
    background-color: #1B1C31 ;
