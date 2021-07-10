@@ -235,14 +235,15 @@ section{
 /* end of about part */
 
 /*start of projects part  */
+
 .work{
-  background-color: #D5DBDB;
+  background-color:#D5DBDB;
 }
 .tlist{
   text-align: center;
   font-size: 45px;
   color: #000000;
-  padding-top: 25px;
+  padding-top: 30px;
   text-decoration: underline;
 }
 .projects{
@@ -253,17 +254,31 @@ section{
   padding-top: 20px;
   justify-content: space-between;
 }
+a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+a:hover{
+  background-color: #B42D46;
+  padding: 5px;
+}
+.button{
+  padding-top: 15px;
+  font-size: 20px;
+
+}
 .middle{
   width: 70%;
-  left: 20%;
-  top: 40%;
+  left: 8%;
+  top: 51%;
   /* transform:translate(-50%,-50%) ; */
   position: absolute;
 }
 .bubble{
   position: absolute;
-  top: 50%;
-  left: 5%;
+  top: 30%;
+  left: 10%;
   transform: translate(-50% -50%);
 }
 .fifteen{
@@ -275,16 +290,17 @@ section{
   height: 97%;
   width: 28%;
   opacity: 0;
-  transition: .5s ease;
-  background: rgba(40, 55, 71, 0.9);
+  transition:all .5s ease;
+  background-color: #D5DBDB;
+  opacity: 0;
 }
 .middle:hover .fifteen{
   opacity: 1;
 }
 .anita{
   width: 70%;
-  left: 45%;
-  top: 40%;
+  left: 44%;
+  top: 51%;
   /* transform:translate(-50%,-50%) ;  */
   position: absolute;
 
@@ -298,19 +314,24 @@ section{
   position: absolute;
   transition: all .5s ease;
   opacity: 0;
-  background-color:#D5DBDB;
-  height: 97%;
+  background-color: #D5DBDB;
+  height: 98%;
   width: 30%;
   top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 .anita:hover .honey{
   opacity: 1 ;
 }
 .banana{
   position: absolute;
-  top: 50%;
-  left: 5%;
+  top: 70%;
+  left: 10%;
   transform: translate(-50%, -50%);
+  font-family: bold;
+  font-size: 20px;
 }
 .bananaCross{
   height: 100%;
@@ -321,6 +342,74 @@ section{
 .anita:hover .bananaCross{
   width: 100%;
 }
+
+
+.guava{
+  width: 70%;
+  left: 80%;
+  top: 51%;
+  /* transform:translate(-50%,-50%) ;  */
+  position: absolute;
+
+}
+.picthree{
+  display: block;
+  width: 200px;
+  height: 300px;
+}
+.etinga{
+  position: absolute;
+  transition: all .5s ease;
+  opacity: 0;
+  background-color: #D5DBDB;
+  height: 98%;
+  width: 25%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.guava:hover .etinga{
+  opacity: 1 ;
+}
+.tinga{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  font-family: bold;
+  font-size: 20px;
+}
+.tingaCross{
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.guava:hover .tingaCross{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
