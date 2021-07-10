@@ -234,10 +234,9 @@ section{
 
 /* end of about part */
 
-/*start of portfolio part  */
-
-#fifteen{
-  background-color: #D5DBDB ;
+/*start of projects part  */
+.work{
+  background-color: #D5DBDB;
 }
 .tlist{
   text-align: center;
@@ -255,9 +254,74 @@ section{
   justify-content: space-between;
 }
 .middle{
-  display: flex;
-  justify-content: space-around;
+  width: 70%;
+  left: 20%;
+  top: 40%;
+  /* transform:translate(-50%,-50%) ; */
+  position: absolute;
 }
+.bubble{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50% -50%);
+}
+.fifteen{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 97%;
+  width: 28%;
+  opacity: 0;
+  transition: .5s ease;
+  background: rgba(40, 55, 71, 0.9);
+}
+.middle:hover .fifteen{
+  opacity: 1;
+}
+.anita{
+  width: 70%;
+  left: 45%;
+  top: 40%;
+  /* transform:translate(-50%,-50%) ;  */
+  position: absolute;
+
+}
+.pictwo{
+  display: block;
+  width: 200px;
+  height: 300px;
+}
+.honey{
+  position: absolute;
+  transition: all .5s ease;
+  opacity: 0;
+  background-color:#D5DBDB;
+  height: 97%;
+  width: 30%;
+  top: 0;
+}
+.anita:hover .honey{
+  opacity: 1 ;
+}
+.banana{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+.bananaCross{
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.anita:hover .bananaCross{
+  width: 100%;
+}
+
 
 
 /* end of portfolio part */
