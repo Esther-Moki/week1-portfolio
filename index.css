@@ -210,24 +210,7 @@ section{
   padding-top: 30px;
   text-decoration: underline;
   margin-top: 20px;
-}
-.projects{
-  display: flex;
-  margin-left: 15%;
-  margin-right: 15%;
-  width: 70%;
-  padding-top: 20px;
-  justify-content: space-between;
-  text-decoration: none;
-}
-.projects a{
-  text-decoration: none; 
-  color:#040720;
-  font-size: 25px;
-}
-.projects a:hover{
-  background-color: #B42D46;
-  padding: 8px;
+  padding-bottom: 10px;
 }
 button{
   padding: 15px;
@@ -243,7 +226,6 @@ button{
   width: 70%;
   left: 8%;
   top: 40%;
-  /* transform:translate(-50%,-50%) ; */
   position: absolute;
 }
 .malik{
@@ -276,7 +258,6 @@ button{
   width: 70%;
   left: 40%;
   top: 40%;
-  /* transform:translate(-50%,-50%) ;  */
   position: absolute;
 }
 .pictwo{
@@ -303,18 +284,15 @@ button{
 }
 .banana{
   position: absolute;
-  top: 57%;
+  top: 55%;
   left: 43%;
   transform: translate(-50%, -50%);
   line-height: 50px;
 }
-
-
 .guava{
   width: 70%;
   left: 73%;
   top: 40%;
-  /* transform:translate(-50%,-50%) ;  */
   position: absolute;
 }
 .picthree{
@@ -346,30 +324,6 @@ button{
   transform: translate(-50%, -50%);
   line-height: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* end of portfolio part */
 
 /* contact part */
