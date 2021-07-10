@@ -93,7 +93,8 @@ nav a:hover{
   transform: rotate(-60deg);
   overflow: hidden;
   background:url(assets/moki.jpg);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   
 }
 .cookie{
