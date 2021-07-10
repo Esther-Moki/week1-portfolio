@@ -51,8 +51,7 @@ nav a:hover{
 }
 /* end of home part */
 
-
-/* beginning of about part */
+/* beginning of about part */ 
 .about{
   display: flex;
   color: #000000;
@@ -199,7 +198,7 @@ section{
 
 /*start of projects part  */
 
-.mid{
+.mid{ 
   background-color:#D5DBDB;
   height: 600px;
 }
@@ -219,7 +218,7 @@ button{
   background-color: #1B1C31;
   margin-top: 10px;
 }
-.mangoes{
+.mangoes{ 
   font-size: 25px !important;
 }
 .middle{
@@ -253,13 +252,13 @@ button{
 }
 .middle:hover .fifteen{
   opacity: 1;
-}
+ } 
 .anita{
-  width: 70%;
+  width: 65%;
   left: 40%;
   top: 40%;
   position: absolute;
-}
+} 
 .pictwo{
   display: block;
   width: 230px;
@@ -278,7 +277,7 @@ button{
   bottom: 0;
   right: 0;
   left: 0;
-}
+} 
 .anita:hover .honey{
   opacity: 1 ;
 }
@@ -289,10 +288,10 @@ button{
   transform: translate(-50%, -50%);
   line-height: 50px;
 }
-.guava{
-  width: 70%;
-  left: 73%;
-  top: 40%;
+.guava{ 
+  width: 72%;
+  left: 74%;
+  top: 10%;
   position: absolute;
 }
 .picthree{
@@ -319,9 +318,9 @@ button{
 }
 .tinga{
   position: absolute;
-  top: 60%;
-  left: 60%;
-  transform: translate(-50%, -50%);
+  width: 70%;
+  top: 10%;
+  left: 20%;
   line-height: 50px;
 }
 /* end of portfolio part */
