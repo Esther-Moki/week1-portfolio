@@ -1,5 +1,5 @@
 # My Portfolio
-#### This project best describes my software development work}, {Date of current version:11/07/2021}
+#### This project best describes my software development work, Date of current version:11/07/2021
 #### By Esther Moki
 ## Description
 This is a portfolio that describes who Esther Moki is as a person and also my career as an upcoming 
