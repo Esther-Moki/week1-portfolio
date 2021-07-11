@@ -237,6 +237,9 @@ button{
   padding-top: 30px;
 }
 .malik{
+  display:block ;
+  width: 230px;
+  height: 380px;
   border-radius: 30px; 
   box-shadow: 5px 5px 5px 5px #000000;
 }
