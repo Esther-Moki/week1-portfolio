@@ -105,7 +105,6 @@ nav a:hover{
 } 
 .pop{
   background-color: #D5DBDB;
-
 }
 section{ 
   background-color: #D5DBDB;
@@ -120,7 +119,7 @@ section{
   padding-top: 13px;
   text-align: center;
 }
- .content{
+.content{
   position: absolute;
   left: 50%;  
   transform: translate(-50%,-50%);
@@ -242,7 +241,7 @@ button{
 .middle, .anita, .guava{
   padding-top: 30px;
 }
-.malik{
+.picfour{
   display:block ;
   width: 230px;
   height: 380px;
