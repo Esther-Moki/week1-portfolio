@@ -196,7 +196,7 @@ section{
 }
 /* end of about page */
 
-/*start of portfolio page */
+/* /*start of portfolio page  */
 
 .mid{ 
   background-color:#D5DBDB;
@@ -258,6 +258,7 @@ button{
   left: 40%;
   top: 40%;
   position: absolute;
+  overflow-x: hidden;
 } 
 .pictwo{
   display: block;
@@ -293,6 +294,7 @@ button{
   left: 74%;
   top: 40%;
   position: absolute;
+  overflow-x: hidden;
 }
 .picthree{
   display: block;
