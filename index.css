@@ -331,9 +331,10 @@ button{
   color: #B42D46;
 }
 .questions{
-  font-size: 20px;
+  font-size: 30px;
 }
 footer{
+  margin-top: 20px;
   box-sizing: border-box;
 }
 .container{
