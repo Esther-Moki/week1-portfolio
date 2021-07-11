@@ -326,101 +326,65 @@ button{
 /* end of portfolio part */
 
 /* contact part */
- .container{
-   background-color: #1B1C31 ;
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   color: #45f3ff;
-
- }
- footer{
-   justify-content: center;
-   align-items: center;
-   min-height: 100vh;
-   width: 80%;
-   padding: 20px;
-
- }
- .container .row{
-    position: relative;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(autofit,minmax(300px,1fr));
- }
- .container .row .col{
-   position: relative;
-   width: 100%;
-   padding: 0 10px;
-   margin: 30px 0 10px;
-   transition: 0.5s;
- }
- .container .row .form{
-   position: relative;
-   width: 100%;
-   height: 40px;
-   color: #45f3ff;
- }
- .container .row .form input,.container .row .form .message textarea{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    box-shadow: none;
-    border: none;
-    outline: none;
-    padding: 0 10px;
-    font-size: 20px;
-    z-index: 1;
-    color: white;
-
-
- }
- .container .row .form .text{
-   position: absolute;
-   top: 0;
-   left: 0;
-   line-height: 40px;
-   padding: 0 10px;
-   display: block;
-   transition: 0.5s;
-   pointer-events: none;
- }
- .container .row .form input:focus + .text , .container .row .form input:valid + .text{
-   top: -35px;
-   left: -10px;
- }
-
- .container .row .form .line{
-   position: absolute;
-   bottom: 0;
-   display: block;
-   width: 100%;
-   height: 2px;
-   background: #45f3ff;
-   transition: 0.5s;
-   border-radius: 2px;
-   pointer-events: none;
- }
- .container .row .form input:focus ~ .line , .container .row .form input:valid ~ .line{
-   height: 100%;
- }
- .container .row .form #message{
-   position: absolute;
-   width: 100%;
-   height: 100px;
-   padding: 10px 5px;
-
- }
- .container .row .form #message{
-   height: 100%;
-   resize: none;
- }
- .container .row .message textarea:focus + .text , .container .row .message textarea:valid + .text{
-  top: -35px;
-  left: -10px;
+footer{
+  box-sizing: border-box;
 }
-.container .row .message textarea:focus ~ .line , .container .row .message textarea:valid ~ .line{
+.container{
+  width: 100%;
+  height: 100vh;
+  color: #B42D46;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cap{
+  width: 90%;
+  max-width: 600px;
+}
+.input-group{
+  margin-bottom: 30px;
+  position: relative;
+}
+input, textarea{
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 3px solid #040720;
+  border-radius: 5px;
+  color: #B42D46;
+  background: transparent;
+  font-size: 15px;
+}
+label{
   height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color:#B42D46;
+  cursor: text;
+  transition: 0.2s;
 }
-
+.sugar{
+  padding: 10px 0;
+  color: #B42D46;
+  font-weight: bold;
+  font-size: 25px;
+  outline: none;
+  border: 1px solid #040720;
+  background: transparent;
+  width: 100%;
+  cursor: pointer;
+}
+input:focus~label,input:valid~label,textarea:focus~label,textarea:valid~label{
+  top: -35px;
+  font-size: 14px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row .input-group{
+  flex-basis: 48%:
+}

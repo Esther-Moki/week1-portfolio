@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="index.css">
+  <script src="https://kit.fontawesome.com/411e8a70d6.js" crossorigin="anonymous"></script>
 </head>
 <body>
    <nav>
@@ -18,72 +19,43 @@
    </nav>
 
    <!----------------------------- contact part -------------------------------->
-   
-   <footer>
+  
+  <footer>
+    <div class="container">
+      <!-- <h2>Get in touch</h2> -->
+      <!-- <p>Have a question or you want to talk to me about a project collaboration fill up the awesome form  -->
+        <!-- below and lets talk -->
+      <!-- </p> -->
 
-     <div class="container">
-       <h2>Get in touch</h2>
-       <p>Have a question or you want to talk to me about a project collaboration fill up the awesome form 
-          below and lets talk
-       </p>
-      
-       <div class="row">
-          <div class="col">
-            <div class="form">
-              <input type="text" name="" required="required">
-              <span class="text">First Name</span>
-              <span class="line"></span>
-            </div>
-
-            <div class="form">
-              <input type="text" name="" required="required">
-              <span class="text">Second Name</span>
-              <span class="line"></span>
-            </div>
-         </div>  
-       </div>
-    
-       <div class="row">
-         <div class="col">
-           <div class="form">
-             <input type="text" name="" required="required">
-             <span class="text">Your Email Address</span>
-             <span class="line"></span>
-           </div>
-
-           <div class="form">
-             <input type="text" name="" required="required">
-             <span class="text">Telephone Number</span>
-             <span class="line"></span>
-           </div>
+      <div class="cap">
+        <div class="row">
+         <div class="input-group">
+           <input type="text" id="name" required="required">
+           <label for="name"><i class="fas fa-user"></i>Your Name</label>
          </div>
-       </div>
 
-
-       <div class="row">
-         <div class="col">
-            <div class="form" id="message" >
-                <textarea required="required"></textarea>
-                <span class="text">TYPE YOUR MESSAGE HERE</span>
-                <span class="line"></span>
-            </div>
-              
-            </div>
+         <div class="input-group">
+           <input type="text" id="number" required="required">
+           <label for="number"><i class="fas fa-phone-square-alt"></i></i>Phone Number</label>
          </div>
+        </div>
+  
+       <div class="input-group">
+          <input type="text" id="email" required="required">
+         <label for="email"><i class="fas fa-envelope-open-text"></i></i>Your Email</label>
        </div>
 
-       <div class="row">
-          <div class="col">
-            <div class="form">
-            <input type="submit" value="send">
-         </div>
-       </div>
-      
-      </div>   
+        <div class="input-group">
+          <textarea id="message" id="" rows="8" required></textarea>
+          <label for="message"><i class="fas fa-comment-dots"></i></i>Your Message</label>
+        </div>
+        <button type="submit" id="sugar"><i class="fas fa-paper-plane"></i>SUBMIT</button>
+     </div>
+  </footer>
 
-    </footer>
+   <!----------------------------- contact ends here ---------------------------------------->
 
-  <!----------------------------- contact ends here ---------------------------------------->
+
   </body>
   </html>
 
