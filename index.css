@@ -325,7 +325,7 @@ button{
 }
 /* end of portfolio part */
 
-/* contact part */
+/*start of contact part */
 .touch{
   text-align: center;
   color: #B42D46;
@@ -372,7 +372,6 @@ label{
   color:#040720;
   cursor: text;
   transition: 0.2s;
-
 }
 .sugar{
   padding: 10px 0;
@@ -395,5 +394,6 @@ input:focus~label,input:valid~label,textarea:focus~label,textarea:valid~label{
   justify-content: space-between;
 }
 .row .input-group{
-  flex-basis: 48%:
+  flex-basis: 48%;
 }
+/* end of contact part */
