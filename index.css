@@ -328,7 +328,7 @@ button{
 /* contact part */
 .touch{
   text-align: center;
-  color: #040720;
+  color: #B42D46;
 }
 .questions{
   font-size: 20px;
@@ -368,14 +368,14 @@ label{
   left: 0;
   top: 0;
   padding: 15px;
-  color:#B42D46;
+  color:#040720;
   cursor: text;
   transition: 0.2s;
 
 }
 .sugar{
   padding: 10px 0;
-  color: #B42D46;
+  color: #040720;
   font-weight: bold;
   font-size: 25px;
   outline: none;
