@@ -228,10 +228,8 @@ button{
   position: absolute;
 }
 .malik{
-  border-radius: 30px;
+  /* border-radius: 30px; */
   box-shadow: 5px 5px 5px 5px #000000;
-  width:150px;
-  height: 350px;
 }
 .bubble{
   position: absolute;
