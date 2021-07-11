@@ -1,4 +1,4 @@
-/* home page  */
+/* beginning of home page  */
 
 .top-part{
   background: url(assets/nine.jpeg);
@@ -49,9 +49,9 @@ nav a{
 nav a:hover{
   background-color: #B42D46;
 }
-/* end of home part */
+/* end of home page */
 
-/* beginning of about part */ 
+/* beginning of about page */ 
 .about{
   display: flex;
   color: #000000;
@@ -194,9 +194,9 @@ section{
   padding-left: 280px;
   line-height: 28px;
 }
-/* end of about part */
+/* end of about page */
 
-/*start of projects part  */
+/*start of portfolio page */
 
 .mid{ 
   background-color:#D5DBDB;
@@ -323,9 +323,9 @@ button{
   left: 20%;
   line-height: 50px;
 }
-/* end of portfolio part */
+/* end of portfolio page */
 
-/*start of contact part */
+/*start of contact page */
 .touch{
   text-align: center;
   color: #B42D46;
@@ -396,4 +396,4 @@ input:focus~label,input:valid~label,textarea:focus~label,textarea:valid~label{
 .row .input-group{
   flex-basis: 48%;
 }
-/* end of contact part */
+/* end of contact page*/
