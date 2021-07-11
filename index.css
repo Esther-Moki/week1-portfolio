@@ -1,4 +1,7 @@
 /* beginning of home page  */
+body{
+  overflow-x: hidden;
+}
 
 .top-part{
   background: url(assets/nine.jpeg);
@@ -197,12 +200,18 @@ section{
 /* end of about page */
 
 /* /*start of portfolio page  */
-
-.mid{ 
-  background-color:#D5DBDB;
-  height: 600px;
+.tomato{
+  background-color: #D5DBDB;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.tlist{
+main{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.moki{
   text-align: center;
   font-size: 45px;
   color: #000000;
@@ -210,6 +219,12 @@ section{
   text-decoration: underline;
   margin-top: 20px;
   padding-bottom: 10px;
+  margin-bottom: 20px;
+} 
+.tlist{
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 30px;
 }
 button{
   padding: 15px;
@@ -217,114 +232,34 @@ button{
   color: #B42D46;
   background-color: #1B1C31;
   margin-top: 10px;
-}
-.mangoes{ 
-  font-size: 25px !important;
-}
-.middle{
-  width: 70%;
-  left: 10%;
-  top: 40%;
-  position: absolute;
+} 
+.middle, .anita, .guava{
+  padding-top: 30px;
 }
 .malik{
-  /* border-radius: 30px; */
+  border-radius: 30px; 
   box-shadow: 5px 5px 5px 5px #000000;
 }
-.bubble{
-  position: absolute;
-  top: 25%; 
-  left: 10%;
-  transform: translate(-50% -50%);
-  line-height: 50px;
-}
-.fifteen{
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 100%;
-  width: 30%;
-  opacity: 0;
-  transition:all .5s ease;
-  background-color: #D5DBDB;
-}
-.middle:hover .fifteen{
-  opacity: 1;
- } 
-.anita{
-  width: 65%;
-  left: 40%;
-  top: 40%;
-  position: absolute;
-  overflow-x: hidden;
-} 
 .pictwo{
   display: block;
   width: 230px;
   height: 380px;
   box-shadow: 5px 5px 5px 5px #000000;
   border-radius: 30px;
-}
-.honey{
-  position: absolute;
-  transition: all .5s ease;
-  opacity: 0;
-  background-color: #D5DBDB;
-  height: 100%;
-  width: 40%;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-} 
-.anita:hover .honey{
-  opacity: 1 ;
-}
-.banana{
-  position: absolute;
-  top: 55%;
-  left: 43%;
-  transform: translate(-50%, -50%);
-  line-height: 50px;
-}
-.guava{ 
-  width: 72%;
-  left: 74%;
-  top: 40%;
-  position: absolute;
-  overflow-x: hidden;
-}
-.picthree{
+}  
+.picthree{  
   display: block;
   width: 230px;
   height: 380px;
   border-radius: 30px;
   box-shadow: 5px 5px 5px 5px #000000;
 }
-.etinga{
-  position: absolute;
-  transition: all .5s ease;
-  opacity: 0;
-  background-color: #D5DBDB;
-  height: 100%;
-  width: 30%;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
+.fifteen ,.honey, .etinga{
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
 }
-.guava:hover .etinga{
-  opacity: 1 ;
-}
-.tinga{
-  position: absolute;
-  width: 70%;
-  top: 10%;
-  left: 20%;
-  line-height: 50px;
-}
+
 /* end of portfolio page */
 
 /*start of contact page */
