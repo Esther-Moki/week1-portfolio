@@ -204,17 +204,15 @@ section{
 }
 /* end of about page */
 
-/* /*start of portfolio page  */
+/* start of portfolio page   */ 
 .tomato{
-  background-color: #D5DBDB;
+  background-color:#D5DBDB;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-main{
+} 
+.tv{
   display: flex;
-  justify-content: space-between;
-  padding-right: 10%;
-  padding-left: 10%;
+  justify-content: space-around;
 }
 .moki{
   text-align: center;
@@ -242,23 +240,20 @@ button{
   padding-top: 30px;
 }
 .picfour{
-  display:block ;
   width: 230px;
   height: 380px;
   border-radius: 30px; 
   box-shadow: 5px 5px 5px 5px #000000;
 }
 .pictwo{
-  display: block;
   width: 230px;
   height: 380px;
   box-shadow: 5px 5px 5px 5px #000000;
   border-radius: 30px;
 }  
 .picthree{  
-  display: block;
   width: 230px;
-  height: 380px;
+  height: 380px; 
   border-radius: 30px;
   box-shadow: 5px 5px 5px 5px #000000;
 }
